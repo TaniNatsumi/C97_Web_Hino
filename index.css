@@ -4,8 +4,8 @@
 }*/
 #wrap {
   position: absolute;
-  top: -240px;
-  left: -280px;
+  top: -280px;
+  left: -360px;
   overflow: hidden;
   width: 1200px;
   height: 800px;
