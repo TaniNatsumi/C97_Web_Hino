@@ -1,0 +1,38 @@
+/*
+#SAMPLE {
+  display: block;
+}*/
+#wrap {
+  position: absolute;
+  top: -200px;
+  left: -750px;
+  overflow: hidden;
+  width: 1200px;
+  height: 800px;
+}
+/*
+@media screen and (max-width:767px){
+  //画面幅が767pxまでの時
+  #wrap {
+    height: 1700px;
+    width: 550px;
+  }
+  
+  #SAMPLE {
+    width: 100%;
+    height: 100%;
+  }
+  
+}
+@media screen and (min-width:767px){
+  //画面幅が767pxまでの時
+  #wrap {
+    height: 150vw;
+    width: 50vw;
+  }
+
+  #SAMPLE {
+    width: 100%;
+    height: 100%;
+  }
+}

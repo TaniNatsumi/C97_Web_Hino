@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- Canvas -->
+    <div id="wrap">
+        <canvas id="SAMPLE" width="1900" height="1000">
+            このブラウザは
+            <code>&lt;canvas&lt;</code>要素をサポートしていません。
+        </canvas>
+        <div class="about-chara">
+            <div class="cubism-widget" 
+                data-model3json="/Resources/C97_Mono/C97_Mono.model3.json" 
+                data-x="0" 
+                data-y="0" 
+                data-scale="4.5" 
+                data-width="550"
+                data-height="1700" 
+                data-idle-motion-enabled="true"></div>
+		</div>
+    </div>
+
+    <!-- Promise-polyfill -->
+    <script src = "https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js "> </script>
+    
+    <!-- Live2DCubismCore -->
+    <script src = "./Core/live2dcubismcore.min.js"></script>
+
+    <!-- User's Script -->
+    <script src = "./dist/index.js"></script>
+    <script src = "./dist/CanvasResize.js"></script>
+    <script src = "./dist/ScrollControll.js"></script>
+</body>
+</html>

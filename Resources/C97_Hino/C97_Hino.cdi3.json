@@ -1,0 +1,553 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroupFace",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroupFace",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroupFace",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroupMouth",
+			"Name": "口　変形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroupMouth",
+			"Name": "口　開閉"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroupEyes",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "ParamGroupEyes",
+			"Name": "左目　笑顔"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroupEyes",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "ParamGroupEyes",
+			"Name": "右目　笑顔"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroupEyes",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroupEyes",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "ParamBrowForm",
+			"GroupId": "ParamGroupEyes",
+			"Name": "眉　変形"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "ParamGroupBody",
+			"Name": "体の回転　Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "ParamGroupBody",
+			"Name": "体の回転　Z"
+		},
+		{
+			"Id": "ParamBodyUpBack",
+			"GroupId": "ParamGroupBody",
+			"Name": "体の前後"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "ParamGroupBody",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamArmUpR",
+			"GroupId": "ParamGroupArms",
+			"Name": "上腕R"
+		},
+		{
+			"Id": "ParamArmLowR",
+			"GroupId": "ParamGroupArms",
+			"Name": "下腕R"
+		},
+		{
+			"Id": "ParamHandR",
+			"GroupId": "ParamGroupArms",
+			"Name": "手R"
+		},
+		{
+			"Id": "ParamChangeHandR",
+			"GroupId": "ParamGroupArms",
+			"Name": "手切り替えR"
+		},
+		{
+			"Id": "ParamArmUpL",
+			"GroupId": "ParamGroupArms",
+			"Name": "上腕L"
+		},
+		{
+			"Id": "ParamArmLowL",
+			"GroupId": "ParamGroupArms",
+			"Name": "下腕L"
+		},
+		{
+			"Id": "ParamHandL",
+			"GroupId": "ParamGroupArms",
+			"Name": "手L"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "ParamGroup",
+			"Name": "髪揺れ　前"
+		},
+		{
+			"Id": "ParamHairFrontEx",
+			"GroupId": "ParamGroup",
+			"Name": "髪揺れ　前Ex"
+		},
+		{
+			"Id": "ParamHairSideR",
+			"GroupId": "ParamGroup",
+			"Name": "髪揺れ　横R"
+		},
+		{
+			"Id": "ParamHairSideREx",
+			"GroupId": "ParamGroup",
+			"Name": "髪揺れ　横REx"
+		},
+		{
+			"Id": "ParamHairSideL",
+			"GroupId": "ParamGroup",
+			"Name": "髪揺れ　横L"
+		},
+		{
+			"Id": "ParamHairSideLEx",
+			"GroupId": "ParamGroup",
+			"Name": "髪揺れ　横LEx"
+		},
+		{
+			"Id": "ParamOdangoRibonRx",
+			"GroupId": "ParamGroup",
+			"Name": "おだんごリボンRX"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "ParamGroup",
+			"Name": "髪揺れ　後"
+		},
+		{
+			"Id": "ParamOdangoRibonLx",
+			"GroupId": "ParamGroup",
+			"Name": "おだんごリボンLX"
+		},
+		{
+			"Id": "ParamPierce1R",
+			"GroupId": "ParamGroup",
+			"Name": "ピアス1R"
+		},
+		{
+			"Id": "ParamPierce2R",
+			"GroupId": "ParamGroup",
+			"Name": "ピアス2R"
+		},
+		{
+			"Id": "ParamPierce3R",
+			"GroupId": "ParamGroup",
+			"Name": "ピアス3R"
+		},
+		{
+			"Id": "ParamPierce1L",
+			"GroupId": "ParamGroup",
+			"Name": "ピアス1L"
+		},
+		{
+			"Id": "ParamPierce2L",
+			"GroupId": "ParamGroup",
+			"Name": "ピアス2L"
+		},
+		{
+			"Id": "ParamPierce3L",
+			"GroupId": "ParamGroup",
+			"Name": "ピアス3L"
+		},
+		{
+			"Id": "ParamPierceRLightning",
+			"GroupId": "ParamGroup",
+			"Name": "ピアス発光R"
+		},
+		{
+			"Id": "ParamBustX",
+			"GroupId": "ParamGroup2",
+			"Name": "胸X"
+		},
+		{
+			"Id": "ParamBustY",
+			"GroupId": "ParamGroup2",
+			"Name": "胸Y"
+		},
+		{
+			"Id": "ParamNeckless",
+			"GroupId": "ParamGroup2",
+			"Name": "ネックレス"
+		},
+		{
+			"Id": "ParamNecklessAcc",
+			"GroupId": "ParamGroup2",
+			"Name": "ネックレス小籠包"
+		},
+		{
+			"Id": "ParamArmAccR1",
+			"GroupId": "ParamGroup2",
+			"Name": "二の腕アクセR1"
+		},
+		{
+			"Id": "ParamArmAccR2",
+			"GroupId": "ParamGroup2",
+			"Name": "二の腕アクセR2"
+		},
+		{
+			"Id": "ParamArmAccR3",
+			"GroupId": "ParamGroup2",
+			"Name": "二の腕アクセR3"
+		},
+		{
+			"Id": "ParamArmAccL1",
+			"GroupId": "ParamGroup2",
+			"Name": "二の腕アクセL1"
+		},
+		{
+			"Id": "ParamArmAccL2",
+			"GroupId": "ParamGroup2",
+			"Name": "二の腕アクセL2"
+		},
+		{
+			"Id": "ParamArmAccL3",
+			"GroupId": "ParamGroup2",
+			"Name": "二の腕アクセL3"
+		},
+		{
+			"Id": "ParamSkirt",
+			"GroupId": "ParamGroup2",
+			"Name": "スカート"
+		},
+		{
+			"Id": "ParamSkirtRibonR",
+			"GroupId": "ParamGroup2",
+			"Name": "スカートリボンR"
+		},
+		{
+			"Id": "ParamSkirtRibonL",
+			"GroupId": "ParamGroup2",
+			"Name": "スカートリボンL"
+		},
+		{
+			"Id": "ParamBaseScale",
+			"GroupId": "ParamGroup3",
+			"Name": "全体の拡縮"
+		},
+		{
+			"Id": "ParamBaseY",
+			"GroupId": "ParamGroup3",
+			"Name": "全体の上下"
+		},
+		{
+			"Id": "ParamBaseX",
+			"GroupId": "ParamGroup3",
+			"Name": "全体の左右"
+		},
+		{
+			"Id": "ParamPixel1",
+			"GroupId": "ParamGroup3",
+			"Name": "ピクセル1"
+		},
+		{
+			"Id": "ParamPixel2",
+			"GroupId": "ParamGroup3",
+			"Name": "ピクセル2"
+		},
+		{
+			"Id": "ParamEffectLight1",
+			"GroupId": "ParamGroup3",
+			"Name": "発光エフェクト1"
+		},
+		{
+			"Id": "ParamEffectLight2",
+			"GroupId": "ParamGroup3",
+			"Name": "発光エフェクト2"
+		},
+		{
+			"Id": "ParamEffectLight3_1",
+			"GroupId": "ParamGroup3",
+			"Name": "発光エフェクト3-1"
+		},
+		{
+			"Id": "ParamEffectLight3_2",
+			"GroupId": "ParamGroup3",
+			"Name": "発光エフェクト3-2"
+		},
+		{
+			"Id": "ParamEffectLight3_3",
+			"GroupId": "ParamGroup3",
+			"Name": "発光エフェクト3-3"
+		},
+		{
+			"Id": "ParamEffectLight3_4",
+			"GroupId": "ParamGroup3",
+			"Name": "発光エフェクト3-4"
+		},
+		{
+			"Id": "ParamEffectLight3_5",
+			"GroupId": "ParamGroup3",
+			"Name": "発光エフェクト3-5"
+		},
+		{
+			"Id": "ParamEffectLight3_6",
+			"GroupId": "ParamGroup3",
+			"Name": "発光エフェクト3-6"
+		},
+		{
+			"Id": "ParamEffectLight3_7",
+			"GroupId": "ParamGroup3",
+			"Name": "発光エフェクト3-7"
+		},
+		{
+			"Id": "ParamEffectLightRotate",
+			"GroupId": "ParamGroup3",
+			"Name": "発光エフェクト3回転"
+		},
+		{
+			"Id": "ParamEffectLight3_8",
+			"GroupId": "ParamGroup3",
+			"Name": "発光エフェクト3-8"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroupFace",
+			"GroupId": "",
+			"Name": "顔"
+		},
+		{
+			"Id": "ParamGroupMouth",
+			"GroupId": "",
+			"Name": "口"
+		},
+		{
+			"Id": "ParamGroupEyes",
+			"GroupId": "",
+			"Name": "目"
+		},
+		{
+			"Id": "ParamGroupBody",
+			"GroupId": "",
+			"Name": "体"
+		},
+		{
+			"Id": "ParamGroupArms",
+			"GroupId": "",
+			"Name": "腕"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "ゆれ（頭）"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "ゆれ（体）"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "エフェクト"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "PartCore",
+			"Name": "Core"
+		},
+		{
+			"Id": "Part34",
+			"Name": "*発光エフェクト"
+		},
+		{
+			"Id": "Part44",
+			"Name": "ピクセル効果"
+		},
+		{
+			"Id": "Part",
+			"Name": "日ノ隈らん"
+		},
+		{
+			"Id": "Part35",
+			"Name": "発光エフェクト3"
+		},
+		{
+			"Id": "Part29",
+			"Name": "効果ピクセル"
+		},
+		{
+			"Id": "Part2",
+			"Name": "髪飾り"
+		},
+		{
+			"Id": "Part3",
+			"Name": "目"
+		},
+		{
+			"Id": "Part7",
+			"Name": "クマ耳R"
+		},
+		{
+			"Id": "Part8",
+			"Name": "クマ耳L"
+		},
+		{
+			"Id": "Part9",
+			"Name": "前髪"
+		},
+		{
+			"Id": "Part10",
+			"Name": "横髪"
+		},
+		{
+			"Id": "Part11",
+			"Name": "口"
+		},
+		{
+			"Id": "Part12",
+			"Name": "頬"
+		},
+		{
+			"Id": "Part13",
+			"Name": "鼻"
+		},
+		{
+			"Id": "Part14",
+			"Name": "顔"
+		},
+		{
+			"Id": "Part15",
+			"Name": "耳"
+		},
+		{
+			"Id": "Part16",
+			"Name": "胸リボン"
+		},
+		{
+			"Id": "Part17",
+			"Name": "両腕"
+		},
+		{
+			"Id": "Part22",
+			"Name": "胸リボン下"
+		},
+		{
+			"Id": "Part23",
+			"Name": "かばん"
+		},
+		{
+			"Id": "Part24",
+			"Name": "シャツ"
+		},
+		{
+			"Id": "Part25",
+			"Name": "うしろ髪"
+		},
+		{
+			"Id": "Part43",
+			"Name": "発光エフェクト3-8"
+		},
+		{
+			"Id": "Part42",
+			"Name": "発光エフェクト3-7"
+		},
+		{
+			"Id": "Part41",
+			"Name": "発光エフェクト3-6"
+		},
+		{
+			"Id": "Part40",
+			"Name": "発光エフェクト3-5"
+		},
+		{
+			"Id": "Part39",
+			"Name": "発光エフェクト3-4"
+		},
+		{
+			"Id": "Part38",
+			"Name": "発光エフェクト3-3"
+		},
+		{
+			"Id": "Part37",
+			"Name": "発光エフェクト3-2"
+		},
+		{
+			"Id": "Part36",
+			"Name": "発光エフェクト3-1"
+		},
+		{
+			"Id": "Part32",
+			"Name": "効果ピクセル根本"
+		},
+		{
+			"Id": "Part30",
+			"Name": "効果ピクセル"
+		},
+		{
+			"Id": "Part31",
+			"Name": "効果ピクセル背後"
+		},
+		{
+			"Id": "Part4",
+			"Name": "眉毛"
+		},
+		{
+			"Id": "Part5",
+			"Name": "目R"
+		},
+		{
+			"Id": "Part6",
+			"Name": "目L"
+		},
+		{
+			"Id": "Part18",
+			"Name": "手R"
+		},
+		{
+			"Id": "Part19",
+			"Name": "腕R"
+		},
+		{
+			"Id": "Part20",
+			"Name": "手L"
+		},
+		{
+			"Id": "Part21",
+			"Name": "腕L"
+		}
+	]
+}
